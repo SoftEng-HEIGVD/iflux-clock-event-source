@@ -1,0 +1,28 @@
+{
+  "name": "iflux-clock-event-source",
+  "version": "0.1.0",
+  "description": "A simple iFLUX event source that emits \"current time\" events at regular intervals",
+  "main": "clock.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SoftEng-HEIGVD/iflux-clock-event-source.git"
+  },
+  "keywords": [
+    "iFLUX",
+    "event",
+    "source",
+    "clock"
+  ],
+  "author": "Olivier Liechti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SoftEng-HEIGVD/iflux-clock-event-source/issues"
+  },
+  "homepage": "https://github.com/SoftEng-HEIGVD/iflux-clock-event-source",
+  "dependencies": {
+    "iflux-node-client": "^0.1.3"
+  }
+}
